@@ -25,6 +25,12 @@ Current operating mode:
   Add observability, permissions, evaluation, and automation where they matter.
 ```
 
+## GitHub Activity
+
+<p align="center">
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=no-acct-journal&theme=tokyonight&hide_border=true&card_width=900" alt="GitHub streak stats" />
+</p>
+
 ## What I'm Building Around
 
 <table>
@@ -188,12 +194,6 @@ flowchart LR
     class academy,ecommerce,demo javaNode;
     class crud coreNode;
 ```
-
-## GitHub Activity
-
-<p align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=no-acct-journal&theme=tokyonight&hide_border=true&card_width=900" alt="GitHub streak stats" />
-</p>
 
 ---
 
