@@ -144,7 +144,7 @@ Current operating mode:
 flowchart LR
     hub(("no-acct-journal"))
 
-    hub --> ai["AI & RAG"]
+    hub --> ai["AI Engineering"]
     hub --> apps["Full-stack Apps"]
     hub --> java["Java Microservices"]
     hub --> core["Backend Fundamentals"]
@@ -169,14 +169,20 @@ flowchart LR
     click crud "https://github.com/no-acct-journal/CRUD_Practice"
 
     classDef hub fill:#0f172a,color:#f8fafc,stroke:#38bdf8,stroke-width:3px;
-    classDef category fill:#111827,color:#e5e7eb,stroke:#8b5cf6,stroke-width:2px;
-    classDef aiNode fill:#172554,color:#dbeafe,stroke:#60a5fa,stroke-width:2px;
-    classDef appNode fill:#052e16,color:#dcfce7,stroke:#4ade80,stroke-width:2px;
-    classDef javaNode fill:#431407,color:#ffedd5,stroke:#fb923c,stroke-width:2px;
-    classDef coreNode fill:#1e293b,color:#e2e8f0,stroke:#94a3b8,stroke-width:2px;
+    classDef aiGroup fill:#172554,color:#dbeafe,stroke:#60a5fa,stroke-width:3px;
+    classDef aiNode fill:#1e3a8a,color:#dbeafe,stroke:#93c5fd,stroke-width:2px;
+    classDef appGroup fill:#052e16,color:#dcfce7,stroke:#4ade80,stroke-width:3px;
+    classDef appNode fill:#14532d,color:#dcfce7,stroke:#86efac,stroke-width:2px;
+    classDef javaGroup fill:#431407,color:#ffedd5,stroke:#fb923c,stroke-width:3px;
+    classDef javaNode fill:#7c2d12,color:#ffedd5,stroke:#fdba74,stroke-width:2px;
+    classDef coreGroup fill:#1e293b,color:#e2e8f0,stroke:#94a3b8,stroke-width:3px;
+    classDef coreNode fill:#334155,color:#e2e8f0,stroke:#cbd5e1,stroke-width:2px;
 
     class hub hub;
-    class ai,apps,java,core category;
+    class ai aiGroup;
+    class apps appGroup;
+    class java javaGroup;
+    class core coreGroup;
     class rag,ferry aiNode;
     class news appNode;
     class academy,ecommerce,demo javaNode;
