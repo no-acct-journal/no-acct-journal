@@ -27,12 +27,28 @@ Current operating mode:
 
 ## What I'm Building Around
 
-| Area | Current focus |
-| --- | --- |
-| RAG platforms | ingestion, parsing, chunking, hybrid retrieval, QA, source sync, permissions, background jobs, evaluation |
-| AI developer tools | streaming agent loops, tool execution, permission models, sessions, memory, skills, sub-agents, worktrees, MCP |
-| Java microservices | Spring Boot, Spring Cloud, API gateways, Feign clients, service discovery, shared modules, service boundaries |
-| Full-stack apps | Vue 3, FastAPI, PostgreSQL, Redis, Docker Compose, auth, caching, mobile-first flows |
+<table>
+  <tr>
+    <th width="190">Area</th>
+    <th>Current focus</th>
+  </tr>
+  <tr>
+    <td><strong>RAG&nbsp;platforms</strong></td>
+    <td>ingestion, parsing, chunking, hybrid retrieval, QA, source sync, permissions, background jobs, evaluation</td>
+  </tr>
+  <tr>
+    <td><strong>AI&nbsp;developer&nbsp;tools</strong></td>
+    <td>streaming agent loops, tool execution, permission models, sessions, memory, skills, sub-agents, worktrees, MCP</td>
+  </tr>
+  <tr>
+    <td><strong>Java&nbsp;microservices</strong></td>
+    <td>Spring Boot, Spring Cloud, API gateways, Feign clients, service discovery, shared modules, service boundaries</td>
+  </tr>
+  <tr>
+    <td><strong>Full-stack&nbsp;apps</strong></td>
+    <td>Vue 3, FastAPI, PostgreSQL, Redis, Docker Compose, auth, caching, mobile-first flows</td>
+  </tr>
+</table>
 
 ## Featured Work
 
@@ -124,28 +140,61 @@ Current operating mode:
 
 ## Repository Map
 
-```mermaid
-mindmap
-  root((no-acct-journal))
-    AI and RAG
-      Universal-Rag-Platform
-      CodeFerry
-    Full-stack apps
-      news-set
-    Java microservices
-      cloudstep-academy
-      Microservices_E_commerce_Platform
-      Microservices_Demo
-    Backend fundamentals
-      CRUD_Practice
-```
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🧠 AI and RAG</h3>
+      <p>
+        <a href="https://github.com/no-acct-journal/Universal-Rag-Platform">
+          <img src="https://img.shields.io/badge/Universal--Rag--Platform-2563eb?style=for-the-badge" alt="Universal-Rag-Platform" />
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/no-acct-journal/CodeFerry">
+          <img src="https://img.shields.io/badge/CodeFerry-7c3aed?style=for-the-badge" alt="CodeFerry" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🚀 Full-stack Apps</h3>
+      <p>
+        <a href="https://github.com/no-acct-journal/news-set">
+          <img src="https://img.shields.io/badge/news--set-16a34a?style=for-the-badge" alt="news-set" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>☕ Java Microservices</h3>
+      <p>
+        <a href="https://github.com/no-acct-journal/cloudstep-academy">
+          <img src="https://img.shields.io/badge/cloudstep--academy-f97316?style=for-the-badge" alt="cloudstep-academy" />
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/no-acct-journal/Microservices_E_commerce_Platform">
+          <img src="https://img.shields.io/badge/Microservices_E_commerce-ef4444?style=for-the-badge" alt="Microservices_E_commerce_Platform" />
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/no-acct-journal/Microservices_Demo">
+          <img src="https://img.shields.io/badge/Microservices_Demo-0ea5e9?style=for-the-badge" alt="Microservices_Demo" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🛠 Backend Fundamentals</h3>
+      <p>
+        <a href="https://github.com/no-acct-journal/CRUD_Practice">
+          <img src="https://img.shields.io/badge/CRUD_Practice-64748b?style=for-the-badge" alt="CRUD_Practice" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=no-acct-journal&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=no-acct-journal&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
-</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=no-acct-journal&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
