@@ -140,59 +140,48 @@ Current operating mode:
 
 ## Repository Map
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🧠 AI and RAG</h3>
-      <p>
-        <a href="https://github.com/no-acct-journal/Universal-Rag-Platform">
-          <img src="https://img.shields.io/badge/Universal--Rag--Platform-2563eb?style=for-the-badge" alt="Universal-Rag-Platform" />
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/no-acct-journal/CodeFerry">
-          <img src="https://img.shields.io/badge/CodeFerry-7c3aed?style=for-the-badge" alt="CodeFerry" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3>🚀 Full-stack Apps</h3>
-      <p>
-        <a href="https://github.com/no-acct-journal/news-set">
-          <img src="https://img.shields.io/badge/news--set-16a34a?style=for-the-badge" alt="news-set" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>☕ Java Microservices</h3>
-      <p>
-        <a href="https://github.com/no-acct-journal/cloudstep-academy">
-          <img src="https://img.shields.io/badge/cloudstep--academy-f97316?style=for-the-badge" alt="cloudstep-academy" />
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/no-acct-journal/Microservices_E_commerce_Platform">
-          <img src="https://img.shields.io/badge/Microservices_E_commerce-ef4444?style=for-the-badge" alt="Microservices_E_commerce_Platform" />
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/no-acct-journal/Microservices_Demo">
-          <img src="https://img.shields.io/badge/Microservices_Demo-0ea5e9?style=for-the-badge" alt="Microservices_Demo" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3>🛠 Backend Fundamentals</h3>
-      <p>
-        <a href="https://github.com/no-acct-journal/CRUD_Practice">
-          <img src="https://img.shields.io/badge/CRUD_Practice-64748b?style=for-the-badge" alt="CRUD_Practice" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+```mermaid
+flowchart LR
+    hub(("no-acct-journal"))
+
+    hub --> ai["AI & RAG"]
+    hub --> apps["Full-stack Apps"]
+    hub --> java["Java Microservices"]
+    hub --> core["Backend Fundamentals"]
+
+    ai --> rag["Universal-Rag-Platform"]
+    ai --> ferry["CodeFerry"]
+
+    apps --> news["news-set"]
+
+    java --> academy["cloudstep-academy"]
+    java --> ecommerce["Microservices_E_commerce"]
+    java --> demo["Microservices_Demo"]
+
+    core --> crud["CRUD_Practice"]
+
+    click rag "https://github.com/no-acct-journal/Universal-Rag-Platform"
+    click ferry "https://github.com/no-acct-journal/CodeFerry"
+    click news "https://github.com/no-acct-journal/news-set"
+    click academy "https://github.com/no-acct-journal/cloudstep-academy"
+    click ecommerce "https://github.com/no-acct-journal/Microservices_E_commerce_Platform"
+    click demo "https://github.com/no-acct-journal/Microservices_Demo"
+    click crud "https://github.com/no-acct-journal/CRUD_Practice"
+
+    classDef hub fill:#0f172a,color:#f8fafc,stroke:#38bdf8,stroke-width:3px;
+    classDef category fill:#111827,color:#e5e7eb,stroke:#8b5cf6,stroke-width:2px;
+    classDef aiNode fill:#172554,color:#dbeafe,stroke:#60a5fa,stroke-width:2px;
+    classDef appNode fill:#052e16,color:#dcfce7,stroke:#4ade80,stroke-width:2px;
+    classDef javaNode fill:#431407,color:#ffedd5,stroke:#fb923c,stroke-width:2px;
+    classDef coreNode fill:#1e293b,color:#e2e8f0,stroke:#94a3b8,stroke-width:2px;
+
+    class hub hub;
+    class ai,apps,java,core category;
+    class rag,ferry aiNode;
+    class news appNode;
+    class academy,ecommerce,demo javaNode;
+    class crud coreNode;
+```
 
 ## GitHub Activity
 
