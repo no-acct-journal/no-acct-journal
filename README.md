@@ -192,7 +192,7 @@ flowchart LR
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=no-acct-journal&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=no-acct-journal&theme=tokyonight&hide_border=true&card_width=900" alt="GitHub streak stats" />
 </p>
 
 ---
