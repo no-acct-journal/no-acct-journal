@@ -1,4 +1,3 @@
-# Hi, I'm no-acct-journal
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:2563eb,100:7c3aed&text=Systems%20%2B%20AI%20Engineering&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Backend%20systems%20%7C%20RAG%20platforms%20%7C%20Developer%20tools%20%7C%20Microservices&descAlignY=58&descSize=16" alt="Profile banner" />
